@@ -41,6 +41,14 @@ body {
     background-color: #000;
 }
 
+input::placeholder {
+    color: white !important;
+}
+
+textarea::placeholder {
+    color: white !important;
+}
+
 a {
     color: var(--color-primary);
     text-decoration: none;
